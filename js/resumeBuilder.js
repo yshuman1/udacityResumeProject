@@ -53,4 +53,9 @@ var projects = {
     display: function () { "use strict"; }
 };
 
-$("#workExperience").append(jobs.toString); //how do i display all the info from the array?
+$("#workExperience").append(jobs.toString);
+/*
+how do i display all the info from the array? is it a for loop like this:
+for (a = 0; a <= jobs.length; a++) {
+    console.log(jobs[a]);
+} */
